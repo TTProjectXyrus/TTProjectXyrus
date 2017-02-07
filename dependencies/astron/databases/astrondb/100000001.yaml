@@ -1,7 +1,7 @@
 id: 100000001
 class: DistributedToon
 fields:
-  setName: ("Super Goopy")
+  setName: ("Panic")
   setFriendsList: ([])
   setDISLid: (100000000)
   setWishName: ("")
