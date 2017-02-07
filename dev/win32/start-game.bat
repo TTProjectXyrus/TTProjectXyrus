@@ -5,7 +5,7 @@ title Toontown Stride Game Launcher
 echo Choose your connection method!
 echo.
 echo #1 - Localhost
-echo #2 - Dev Server
+echo #2 - Dev Server (TTPX MAIN)
 echo #3 - Custom
 echo #4 - Local RemoteDB
 echo #5 - Prod Server
@@ -19,7 +19,7 @@ set /P INPUT=Selection:
 if %INPUT%==1 (
     set TTS_GAMESERVER=127.0.0.1
 ) else if %INPUT%==2 (
-    set TTS_GAMESERVER=167.114.220.172
+    set TTS_GAMESERVER=insert ip here
 ) else if %INPUT%==4 (
     set TTS_GAMESERVER=127.0.0.1
 ) else if %INPUT%==5 (
@@ -46,7 +46,7 @@ if %INPUT%==2 (
 echo.
 
 echo ===============================
-echo Starting Toontown Stride...
+echo Starting Toontown Project Xyrus...
 echo ppython: "C:\Panda3D-1.10.0\python\ppython.exe"
 
 if %INPUT%==2 (
